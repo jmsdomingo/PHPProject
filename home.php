@@ -32,13 +32,16 @@ if($email != false){
         </div>
         <ul class="nav-links">
             <li>
-                <a href="home.php">Home</a>
+                <a href="home">Home</a>
             </li>
             <li>
-                <a href="exercise.php">Exercises</a>
+                <a href="kindergarten">Kindergarten</a>
             </li>
             <li>
-                <a href="about.php">About</a>
+                <a href="preschool">Preschool</a>
+            </li>
+            <li>
+                <a href="about">About</a>
             </li>
             <li>
                 <a href="controller?logout=1">Logout</a>
@@ -49,9 +52,16 @@ if($email != false){
     <section class="about">
         <div class="main">
             <div class="about-text">
-                <h1>Welcome to COUNT EDU!</h1>
+                <h1>Welcome to Count EDU!</h1>
                 <h5>GROUP # 1<br> 4-ITF</h5>
             </div>    
+
+            <div class="col-12 col-lg-12 mt-1"> 
+               <a href="kindergarten"><button>KINDERGARTEN</button></a>
+            </div>
+            <div class="col-12 col-lg-12 mt-3">
+               <a href="preschool"><button>PRESCHOOL</button></a>
+            </div>
         </div>     
     </section> 
 </body>
