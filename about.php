@@ -18,10 +18,10 @@
                 <a href="home">Home</a>
             </li>
             <li>
-                <a href="kindergarten">Kindergarten</a>
+                <a href="preschool">Preschool</a>
             </li>
             <li>
-                <a href="preschool">Preschool</a>
+                <a href="kindergarten">Kindergarten</a>
             </li>
             <li>
                 <a href="about">About</a>
