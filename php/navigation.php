@@ -21,6 +21,10 @@ if(isset($_SESSION['level'])){
             <i class="material-icons nav__icon">groups</i>
             <span id="nav__txt">About</span>
         </a>
+        <a href="login.php" class="nav__link three<?php if(basename($_SERVER['PHP_SELF'])=='login.php'){echo 'nav__link--active';}else{echo '';} ?>">
+            <i class="material-icons nav__icon">exit_to_app</i>
+            <span id="nav__txt">Logout</span>
+        </a>
     </div> 
 
     <div class="nav__overlay"></div>
