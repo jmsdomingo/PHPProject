@@ -38,7 +38,7 @@ if(isset($_POST['login'])){
 
         if($password == $fetch_pass){
             $_SESSION['email'] = $email;
-            header("Location: home");
+            header("Location: index");
         }else{
             $errors['incorrect_pass'] = "Password incorrect.";
         }
