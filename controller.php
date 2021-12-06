@@ -46,6 +46,7 @@ if(isset($_POST['login'])){
         $fetch = mysqli_fetch_assoc($res);
         $fetch_pass = $fetch['password'];
         if(password_verify($password, $fetch_pass)){
+            $_SESSION['email'] = $email;
             header('location: index');
         }else{
             $errors['email'] = "The email or password is incorrect!";
