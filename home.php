@@ -17,6 +17,26 @@ if($email != false){
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<style>
+	.box_container{
+		width: 90%;
+		margin: auto;	 
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+        border-color: none;
+        border-style: none;
+	}
+	.box{
+		width: 400px;
+		margin: 0 80px;
+		transition: 1s;
+	}
+	.box:hover{
+		transform: scale(1.3);
+		z-index: 1;
+	} 
+	</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,13 +52,16 @@ if($email != false){
         </div>
         <ul class="nav-links">
             <li>
-                <a href="home.php">Home</a>
+                <a href="home">Home</a>
             </li>
             <li>
-                <a href="exercise.php">Exercises</a>
+                <a href="preschool">Preschool</a>
             </li>
             <li>
-                <a href="about.php">About</a>
+                <a href="kindergarten">Kindergarten</a>
+            </li>
+            <li>
+                <a href="about">About</a>
             </li>
             <li>
                 <a href="controller?logout=1">Logout</a>
@@ -49,10 +72,17 @@ if($email != false){
     <section class="about">
         <div class="main">
             <div class="about-text">
-                <h1>Welcome to COUNT EDU!</h1>
-                <h5>GROUP # 1<br> 4-ITF</h5>
-            </div>    
-        </div>     
+                <h2>Welcome to</h2>
+                <h1>COUNT EDU</h1>
+                <h3>Please select your year or level</h3>
+        <div class="box_container">
+		<div class="box">
+        <a href="preschool"><img src="images/2.jpg"></a>
+		</div>
+		<div class="box">
+        <a href="kindergarten"><img src="images/1.jpg" ></a>
+		</div>
+	    </div>     
     </section> 
 </body>
 </html>
