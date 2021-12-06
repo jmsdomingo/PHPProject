@@ -13,7 +13,7 @@
     <div class="container-fluid" id="header">
         <div class="row text-center m-2">
             <div class="col-12">
-                <span id="header-txt">Welcome to Count EDU</span>
+                <span id="header-txt">Welcome to <span class="zero">C</span><span class="one">o</span><span class="two">u</span><span class="three">n</span><span class="four">t</span> <span class="ten">E</span><span class="zero">D</span><span class="one">U</span></span>
             </div>
         </div>
     </div>
