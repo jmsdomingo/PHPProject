@@ -63,6 +63,15 @@ body {
     #nav__txt{
         font-size: 25px !important;
     }
+
+    .team{
+        margin: 52.5px 0;
+        min-height: calc(100vh - 105px);
+    }
+
+    #team-desc{
+        font-size: 20px !important;
+    }
 }
 
 #header{
@@ -94,23 +103,36 @@ body {
     cursor: pointer;
 }
 
-.age-selector, .activity-selector{
+.age-selector, 
+.activity-selector{
     min-height: 100vh;
     display: flex;
 }
 
-.age-selector > .row, .activity-selector > .row{
+.team{
+    margin: 82.5px 0;
+    min-height: calc(100vh - 165px);
+    display: flex;
+}
+
+.age-selector > .row, 
+.activity-selector > .row,
+.team > .row{
     width: 100%;
     margin: auto 0;
 }
 
-#menu, .card, .btn-container img, .btn-container .activity-button{
+#menu, .card, 
+.btn-container img, 
+.btn-container .activity-button,
+.video-wrap{
     transition: transform .2s; /* Animation */
 }
 #menu:hover, 
 .card:hover,  
 .btn-container:hover img,
-.btn-container:hover .activity-button{
+.btn-container:hover .activity-button,
+.video-wrap:hover{
     cursor: pointer;
     transform: scale(1.05);
 }
@@ -211,9 +233,19 @@ body {
     line-height: 200px;
 }
 
-.activity-selector img{
+.activity-selector img, .team img{
     height: 264px;
 }
+
+.team img{
+    width: 264px;
+    padding: 20px;
+}
+
+#team-desc{
+    font-size: 25px;
+}
+
 
 .activity-button{
     height: 55px;
@@ -225,6 +257,36 @@ body {
 }
 
 
+.video-wrap {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* video poster frame or placeholder image */
+.video-wrap .placeholder {
+    max-width: 700px;
+    width: 100%;
+}
+/* SVG play button container */
+.video-wrap .play-btn {
+    position: absolute;
+    max-width: 700px;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.video-wrap .play-btn svg {
+    transition: all .2s ease;
+    fill: #fff;
+}
+.video-wrap .play-btn:hover svg,
+.video-wrap .play-btn:focus svg {
+    cursor: pointer;
+    fill: #17e617;
+}
 
 
 
