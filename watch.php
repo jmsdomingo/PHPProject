@@ -18,9 +18,11 @@ if(isset($_GET['level'])){
     <div class="container-fluid" id="header">
         <div class="row text-center m-2">
             <div class="col-12">
-                <span id="header-txt">Watch</span>
+                <span id="header-txt"><span class="zero">W</span><span class="one">A</span><span class="two">T</span><span class="three">C</span><span class="four">H</span></span>
                 <br>
                 <span id="header-subtxt">Level: <?php echo ucfirst($level); ?></span>
+                <br><br>
+                <span id="header-subtxt">Click on a video to watch!</span>
 
                 <div class="container-fluid">
                     <div class="row gallery">

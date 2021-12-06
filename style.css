@@ -125,14 +125,16 @@ body {
 #menu, .card, 
 .btn-container img, 
 .btn-container .activity-button,
-.video-wrap{
+.video-wrap,
+.number{
     transition: transform .2s; /* Animation */
 }
 #menu:hover, 
 .card:hover,  
 .btn-container:hover img,
 .btn-container:hover .activity-button,
-.video-wrap:hover{
+.video-wrap:hover,
+.number:hover{
     cursor: pointer;
     transform: scale(1.05);
 }
@@ -157,7 +159,7 @@ body {
 .nav__link{
     display: flex;
     align-items: center;
-    color: #000000;
+    color: #e4e4e4;
     font-weight: bold;
     font-size: 14px;
     text-decoration: none;
@@ -185,7 +187,7 @@ body {
 }
   
 .nav__link:hover{
-    color: #212529;
+    color: #e4e4e4;
 }
   
 .nav__overlay{
@@ -287,6 +289,28 @@ body {
     cursor: pointer;
     fill: #17e617;
 }
+
+.number{
+    font-size: 75px;
+    background-color: transparent;
+    border: none;
+}
+.number-txt{
+    font-size: 50px;
+}
+
+.zero,.eleven{color: red;}
+.one,.twelve{color: purple;}
+.two,.thirteen{color: aqua;}
+.three,.fourteen{color: green;}
+.four,.fifteen{color: blue;}
+
+.five,.sixteen{color: blue;}
+.six,.seventeen{color: green;}
+.seven,.eighteen{color: black;}
+.eight,.nineteen{color: purple;}
+.nine,.twenty{color: red;}
+.ten{color: brown;}
 
 
 
