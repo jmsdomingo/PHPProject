@@ -159,7 +159,7 @@ body {
 .nav__link{
     display: flex;
     align-items: center;
-    color: #e4e4e4;
+    color: blue;
     font-weight: bold;
     font-size: 14px;
     text-decoration: none;
