@@ -14,7 +14,30 @@
 
 </head>
 <body>
-    
+    <section class="about">
+        <div class="main">
+            <video width="320" height="240" controls>
+                <source src="videos/countkinder.mp4" type="video/mp4">
+            </video>
+            <video width="320" height="240" controls>
+                <source src="videos/countkinderquiz.mp4" type="video/mp4">
+            </video>
+            <video width="320" height="240" controls>
+                <source src="videos/countkindersong.mp4" type="video/mp4">
+            </video>
+        </div>  
+        <div class="main">
+            <video width="320" height="240" controls>
+                <source src="videos/countkinderfingers.mp4" type="video/mp4">
+            </video>
+            <video width="320" height="240" controls>
+                <source src="videos/countkinderfruits.mp4" type="video/mp4">
+            </video>
+            <video width="320" height="240" controls>
+                <source src="videos/countkinderobjects.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
 </body>
 
 <script>
