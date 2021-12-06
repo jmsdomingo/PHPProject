@@ -55,8 +55,65 @@ if($email != false){
                <a href="NumberTwo.php"><input type="submit" value="Count Two"></a>
                <a href="NumberThree.php"><input type="submit" value="Count Three"></a>
                <a href="NumberFour.php"><input type="submit" value="Count Four"></a>
-               <a href="NumberFive.php"><input type="submit" value="Count Five"></a>
         </div>     
     </section>
 </body>
 </html>
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// Class Parent
+abstract class Number {
+  public $name;
+  public function __construct($name) {
+    $this->number = $name;
+  }
+  abstract public function Num() : string; 
+}
+
+// Class Child
+class One extends Number {
+  public function Num() : string {
+    return "Let's Count One, $this->number!"; 
+  }
+}
+
+class Two extends Number {
+  public function Num() : string {
+    return "Let's Count Two, $this->number!"; 
+  }
+}
+
+class Three extends Number {
+  public function Num() : string {
+    return "Let's Count Three, $this->number!"; 
+  }
+}
+class Four extends Number {
+  public function Num() : string {
+    return "Let's Count Four, $this->number!"; 
+  }
+}
+// Objects of Class Child
+$NumberOne = new One("One");
+echo $NumberOne->Num();
+echo "<br>";
+
+$NumberTwo = new Two("One, Two");
+echo $NumberTwo->Num();
+echo "<br>";
+
+$NumberThree = new Three("One, Two, Three");
+echo $NumberThree->Num();
+echo "<br>";
+ 
+$NumberFour = new Four("One, Two, Three, Four");
+echo $NumberFour->Num();
+?>
+</body>
+</html>
+ -->
