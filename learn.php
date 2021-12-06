@@ -1,9 +1,28 @@
+<?php require_once "controller.php"; ?>
 <?php
+
+if(isset($_SESSION['email'])){
+    $email = $_SESSION['email'];
+}else{
+    $email = '';
+}
+
+if($email != false){
+    $sql = "SELECT * FROM admin WHERE email = '$email'";
+    $run_Sql = mysqli_query($conn, $sql);
+    if($run_Sql){
+        
+    }
+}else{
+    header('Location: login');
+}
+
+
 if(isset($_GET['level'])){
     $level = $_GET['level'];
 }
 ?>
-<?php require_once "controller.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
