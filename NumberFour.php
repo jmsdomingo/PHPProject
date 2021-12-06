@@ -51,6 +51,7 @@ if($email != false){
     <br><br> <br><br>
     <section class="about">
         <div class="main">
+        <a href="learn.php"><input type="submit" value="Back"></a>
             <div class="container">
             <h1> Count how many circle/s can you see! </h1>
             <img src="images/number1.png">
