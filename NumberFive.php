@@ -51,11 +51,14 @@ if($email != false){
     <br><br> <br><br>
     <section class="about">
         <div class="main">
-               <a href="NumberOne.php"><input type="submit" value="Count One"></a>
-               <a href="NumberTwo.php"><input type="submit" value="Count Two"></a>
-               <a href="NumberThree.php"><input type="submit" value="Count Three"></a>
-               <a href="NumberFour.php"><input type="submit" value="Count Four"></a>
-               <a href="NumberFive.php"><input type="submit" value="Count Five"></a>
+            <div class="container">
+            <h1> Count how many circle/s can you see! </h1>
+            <img src="images/number1.png">
+            <img src="images/number1.png">
+            <img src="images/number1.png"> 
+            <img src="images/number1.png">
+            <img src="images/number1.png">
+        </div>
         </div>     
     </section>
 </body>
